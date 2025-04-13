@@ -1,0 +1,81 @@
+.expense-table-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .expense-table-container h2 {
+    color: #2c3e50;
+    margin-bottom: 15px;
+    font-size: 1.5rem;
+  }
+  
+  .expense-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .expense-table th,
+  .expense-table td {
+    padding: 12px 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .expense-table thead th {
+    background-color: #f8f9fa;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .expense-table tbody tr:hover {
+    background-color: #f5f5f5;
+  }
+  
+  .sortable-header {
+    cursor: pointer;
+  }
+  
+  .sortable-header:hover {
+    background-color: #e9ecef;
+  }
+  
+  .active-sort {
+    background-color: #62768a;
+  }
+  
+  .delete-button {
+    padding: 6px 10px;
+    background-color: #e74c3c;
+    color: rgb(8, 8, 8);
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .delete-button:hover {
+    background-color: #c0392b;
+  }
+  
+  .no-expenses-message {
+    text-align: center;
+    padding: 20px;
+    color: #9c0505;
+  }
+  .expense-table-container .expense-table th,
+  .expense-table-container .expense-table td {
+    font-size: 0.9rem;
+    background-color: #99cac8;
+  }
+  @media (max-width: 768px) {
+    .expense-table-container .expense-table th,
+    .expense-table-container .expense-table td {
+      font-size: 0.8rem;
+      padding: 10px 12px;
+    }
+  }
+   .expense-table-container .expense-table th {
+    padding: 10px 15px;
+  }

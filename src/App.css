@@ -1,5 +1,15 @@
 .App {
   text-align: center;
+  min-height: 100vh;
+  padding: 20px;
+  background-color:#2E3440 ;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .App {
+    padding: 10px;
+  }
 }
 
 .App-logo {
@@ -21,18 +31,6 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: rgb(18, 116, 143);
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
